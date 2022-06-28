@@ -2,7 +2,7 @@ import mysql.connector as c
 import streamlit as st
 from random import randint
 
-con = c.connect(user='root', password='qwertykp', host='localhost', database='cse202_endsem13')
+con = c.connect(user='root', password='12345678', host='localhost', database='cse202_endsem13')
 
 cur = con.cursor()
 
